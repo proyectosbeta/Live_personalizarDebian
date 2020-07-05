@@ -29,11 +29,10 @@ Personalizamos Debian Buster a medida
 * sddm (sudo apt install sddm)
 
 ## Reconfigurar gestor de sesión:
-`
-sudo dpkg-reconfigure ligthdm
-`
+
+  sudo dpkg-reconfigure ligthdm
+
 
 ## VirtualBox additions:
-`
-sudo apt install build-essential dkms linux-headers-$(uname -r)
-`
+
+  sudo apt install build-essential dkms linux-headers-$(uname -r)
